@@ -1,6 +1,6 @@
 import {FC} from 'react';
 
-export const Container: FC = () => {
+export const Home: FC = () => {
   return (
     <div></div>
   );

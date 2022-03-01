@@ -3,16 +3,13 @@ import {AiOutlineSearch} from 'react-icons/ai';
 import {BsFillChatFill, BsFillPersonFill} from 'react-icons/bs';
 import {MdNotifications} from 'react-icons/md';
 
-const person1Small = require('../../assets/persons/person1-small.webp');
-const person1Medium = require('../../assets/persons/person1-medium.webp');
-const person1Large = require('../../assets/persons/person1-large.webp');
 const person1Profile = require('../../assets/persons/person1-profile.webp');
 
 export const TopBar: FC = () => {
   return (
     <>
       <section
-        className="grid grid-cols-3 h-20 w-full items-center bg-blue-400 sticky top-0">
+        className="grid grid-cols-3 h-20 w-full items-center bg-blue-400 sticky top-0 z-10">
         <article>
           <span className='text-3xl text-white ml-4'>React Social</span>
         </article>

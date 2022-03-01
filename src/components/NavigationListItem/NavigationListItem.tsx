@@ -8,9 +8,9 @@ interface NavigationListItemProps {
 
 export const NavigationListItem: FC<NavigationListItemProps> = ({Icon, text}) => {
   return (
-    <li className='flex gap-1 mb-4'>
-      <Icon className='text-xl'/>
-      <span className=''>
+    <li className='flex gap-2 items-center mb-5'>
+      <Icon className='text-2xl'/>
+      <span className='text-lg'>
         {text}
       </span>
     </li>

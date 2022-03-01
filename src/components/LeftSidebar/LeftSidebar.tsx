@@ -28,9 +28,8 @@ export const LeftSidebar: FC = () => {
           <NavigationListItem Icon={BsCalendarDate} text='Events'/>
           <NavigationListItem Icon={FaGraduationCap} text='Courses'/>
         </ul>
-        <button className='bg-gray-100 py-2 px-10 ml-3 rounded'>Show More</button>
-        <hr />
-        <ul>
+        <button className='bg-gray-100 py-2 px-10 ml-3 my-2 rounded'>Show More</button>
+        <ul className='border-t-2 w-11/12 mx-auto mt-6'>
           <FriendListItem
             person1ProfilePicture={person1ProfilePicture}
             text='Jane Knife'

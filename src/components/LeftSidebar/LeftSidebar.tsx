@@ -15,8 +15,7 @@ const person1ProfilePicture = require('../../assets/persons/person1-profile.webp
 
 export const LeftSidebar: FC = () => {
   return (
-    <>
-      <div className='col-start-1 col-end-4 overflow-y-scroll'>
+      <div className='col-start-1 col-end-4 overflow-y-scroll h-screen'>
         <ul className='ml-3 mt-3'>
           <NavigationListItem Icon={MdRssFeed} text='Feed'/>
           <NavigationListItem Icon={BsChatSquareDots} text='Chats'/>
@@ -75,8 +74,32 @@ export const LeftSidebar: FC = () => {
             text='Jane Knife'
             altText={`Jane's profile picture`}
           />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
         </ul>
       </div>
-    </>
   );
 };

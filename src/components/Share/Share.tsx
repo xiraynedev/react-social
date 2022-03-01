@@ -14,7 +14,14 @@ export const Share: FC = () => {
         />
         <p className="text-gray-500 text-lg">What is for lunch today?</p>
       </div>
-      <ShareIcon/>
+      <div className='flex items-center'>
+        <ShareIcon/>
+        <div className='mt-4 ml-8'>
+          <button
+            className='border shadow-lg py-2 px-8 mt-1 text-blue-900
+            bg-green-300 font-bold tracking-wider rounded-lg'>Share</button>
+        </div>
+      </div>
     </div>
   );
 };

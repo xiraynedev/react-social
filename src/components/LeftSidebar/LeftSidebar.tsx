@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import {NavigationLink} from '../NavigationLink/NavigationLink';
+import {NavigationListItem} from '../NavigationListItem/NavigationListItem';
 import {MdRssFeed} from 'react-icons/md';
 import {BsChatSquareDots} from 'react-icons/bs';
 import {MdOutlineOndemandVideo} from 'react-icons/md';
@@ -9,21 +9,73 @@ import {BsQuestionSquare} from 'react-icons/bs';
 import {BsBriefcase} from 'react-icons/bs';
 import {BsCalendarDate} from 'react-icons/bs';
 import {FaGraduationCap} from 'react-icons/fa';
+import {FriendListItem} from '../FriendListItem/FriendListItem';
+
+const person1ProfilePicture = require('../../assets/persons/person1-profile.webp');
 
 export const LeftSidebar: FC = () => {
   return (
     <>
-      <div className='col-start-1 col-end-4'>
+      <div className='col-start-1 col-end-4 overflow-y-scroll'>
         <ul className='ml-3 mt-3'>
-          <NavigationLink Icon={MdRssFeed} text='Feed'/>
-          <NavigationLink Icon={BsChatSquareDots} text='Chats'/>
-          <NavigationLink Icon={MdOutlineOndemandVideo} text='Videos'/>
-          <NavigationLink Icon={MdOutlineGroups} text='Groups'/>
-          <NavigationLink Icon={BsBookmark} text='Bookmarks'/>
-          <NavigationLink Icon={BsQuestionSquare} text='Questions'/>
-          <NavigationLink Icon={BsBriefcase} text='Jobs'/>
-          <NavigationLink Icon={BsCalendarDate} text='Events'/>
-          <NavigationLink Icon={FaGraduationCap} text='Courses'/>
+          <NavigationListItem Icon={MdRssFeed} text='Feed'/>
+          <NavigationListItem Icon={BsChatSquareDots} text='Chats'/>
+          <NavigationListItem Icon={MdOutlineOndemandVideo} text='Videos'/>
+          <NavigationListItem Icon={MdOutlineGroups} text='Groups'/>
+          <NavigationListItem Icon={BsBookmark} text='Bookmarks'/>
+          <NavigationListItem Icon={BsQuestionSquare} text='Questions'/>
+          <NavigationListItem Icon={BsBriefcase} text='Jobs'/>
+          <NavigationListItem Icon={BsCalendarDate} text='Events'/>
+          <NavigationListItem Icon={FaGraduationCap} text='Courses'/>
+        </ul>
+        <button className='bg-gray-100 py-2 px-10 ml-3 rounded'>Show More</button>
+        <hr />
+        <ul>
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
+          <FriendListItem
+            person1ProfilePicture={person1ProfilePicture}
+            text='Jane Knife'
+            altText={`Jane's profile picture`}
+          />
         </ul>
       </div>
     </>

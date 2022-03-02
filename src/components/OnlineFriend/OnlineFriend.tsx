@@ -8,9 +8,9 @@ export const OnlineFriend: FC = () => {
       <div className='relative'>
         <img
           src={person1ProfilePicture} alt="person 1 profile picture"
-          className="rounded-full"
+          className="rounded-full w-20 h-20"
         />
-        <span className='bg-green-400 w-4 h-4 rounded-full absolute -top-1 right-0'></span>
+        <span className='bg-green-400 w-5 h-5 rounded-full absolute -top-1 right-3'></span>
       </div>
       <p className="font-bold text-xl">Jane Knife</p>
     </div>

@@ -12,7 +12,7 @@ export const Post: FC = () => {
         <img
           src={person1ProfilePicture}
           alt="person 1 profile picture"
-          className="rounded-full mb-2 md:mb-0 self-start"
+          className="rounded-full mb-2 md:mb-0 self-start w-20 h-20"
         />
         <div className='flex flex-col lg:flex-row self-start items-center lg:gap-5'>
           <p className="self-start lg:self-center font-bold text-lg">Jane Knife</p>

@@ -8,11 +8,11 @@ const person1Profile = require('../../assets/persons/person1-profile.webp');
 export const TopBar: FC = () => {
   return (
       <header
-        className="bg-blue-400 sticky top-0 z-10 pt-6 lg:py-8 lg:flex items-center">
+        className="bg-blue-900 sticky pb-8 top-0 z-10 pt-6 lg:py-8 lg:flex items-center">
         <div>
-          <h1 className='text-center text-3xl text-white mx-10'>React Social</h1>
+          <h1 className='text-4xl pb-5 lg:pb-0 text-white mx-10'>React Social</h1>
         </div>
-        <div className="flex items-center w-11/12 mx-auto p-2 my-4 rounded-lg bg-white
+        <div className="flex items-center w-11/12 mx-auto p-2 mt-14 lg:mt-0 mb-2 rounded-lg bg-white
         lg:w-1/2 lg:justify-between">
           <AiOutlineSearch className='text-2xl'/>
           <input
@@ -21,25 +21,25 @@ export const TopBar: FC = () => {
             className='w-8/12 p-2 placeholder:text-emerald-900 outline-0'
           />
         </div>
-        <div className='hidden lg:visible lg:flex flex-1 justify-end gap-5 mx-10'>
+        <div className='hidden lg:block lg:flex justify-center items-center gap-10 mx-10'>
             <div className="flex relative">
-              <BsFillPersonFill className='text-2xl'/>
+              <BsFillPersonFill className='text-3xl'/>
               <span className='absolute -top-3 -right-3 bg-red-300 font-bold border rounded-full text-xs px-2'>1</span>
             </div>
             <div className="flex relative">
-              <BsFillChatFill className='text-2xl'/>
+              <BsFillChatFill className='text-3xl'/>
               <span className='absolute -top-3 -right-3 bg-red-300 font-bold border rounded-full text-xs px-2'>2</span>
             </div>
             <div className="flex relative">
-              <MdNotifications className='text-2xl'/>
+              <MdNotifications className='text-3xl'/>
               <span className='absolute -top-3 -right-3 bg-red-300 font-bold border rounded-full text-xs px-2'>1</span>
             </div>
         </div>
-            <div className='invisible lg:visible mr-12'>
+            <div className='absolute top-3 -right-5 lg:static mr-12'>
               <img
                 src={person1Profile}
                 alt="profile picture of person 1"
-                className='rounded-full'
+                className='rounded-full w-20 h-20'
               />
             </div>
       </header>

@@ -10,7 +10,7 @@ export const Share: FC = () => {
         <img
           src={person1ProfilePicture}
           alt="person 1 profile picture"
-          className="rounded-full"
+          className="rounded-full w-20 h-20"
         />
         <p className="text-gray-500 text-lg">What is for lunch today?</p>
       </div>

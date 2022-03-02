@@ -18,7 +18,7 @@ export const Post: FC = () => {
           <p className="self-start lg:self-center font-bold text-lg">Jane Knife</p>
           <p className="self-start lg:self-center text-xs">5 mins ago</p>
         </div>
-        <div className="font-bold text-2xl rotate-90 ml-auto -translate-y-10 translate-x-7 md:translate-y-0">
+        <div className="font-bold text-2xl rotate-90 ml-auto -translate-y-10 translate-x-7 md:translate-x-0 md:translate-y-0">
           <span>.</span>
           <span>.</span>
           <span>.</span>

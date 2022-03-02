@@ -4,7 +4,7 @@
   "description": "A React project using TypeScript to build a social media app.",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.j"
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "Raymond Cortes",
   "license": "ISC",

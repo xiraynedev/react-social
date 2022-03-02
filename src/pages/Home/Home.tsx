@@ -5,12 +5,10 @@ import {RightSidebar} from '../../components/RightSidebar/RightSidebar';
 
 export const Home: FC = () => {
   return (
-    <>
       <div className='grid grid-cols-12'>
         <LeftSidebar />
         <Feed />
         <RightSidebar />
       </div>
-    </>
   );
 };

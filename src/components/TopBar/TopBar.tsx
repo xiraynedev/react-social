@@ -8,9 +8,9 @@ const person1Profile = require('../../assets/persons/person1-profile.webp');
 export const TopBar: FC = () => {
   return (
       <header
-        className="bg-blue-900 sticky pb-8 top-0 z-10 pt-6 lg:py-8 lg:flex items-center">
+        className="bg-blue-900 lg:sticky pb-8 top-0 z-10 pt-6 lg:py-8 lg:flex items-center">
         <div>
-          <h1 className='text-4xl pb-5 lg:pb-0 text-white mx-10'>React Social</h1>
+          <h1 className='text-4xl text-white mx-10'>React Social</h1>
         </div>
         <div className="flex items-center w-11/12 mx-auto p-2 mt-14 lg:mt-0 mb-2 rounded-lg bg-white
         lg:w-1/2 lg:justify-between">

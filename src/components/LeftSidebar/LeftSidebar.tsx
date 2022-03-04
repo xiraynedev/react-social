@@ -15,7 +15,7 @@ const person1ProfilePicture = require('../../assets/persons/person1-profile.webp
 
 export const LeftSidebar: FC = () => {
   return (
-      <section className='col-start-1 col-end-5 lg:col-start-1 lg:col-end-3 flex flex-col sticky top-20 overflow-y-scroll h-screen'>
+      <section className='col-start-1 col-end-5 lg:col-start-1 lg:col-end-3 flex flex-col sticky top-0 overflow-y-scroll h-screen'>
           <ul className='ml-1 mt-1 md:ml-3 md:mt-3'>
             <NavigationListItem Icon={MdRssFeed} text='Feed'/>
             <NavigationListItem Icon={BsChatSquareDots} text='Chats'/>
